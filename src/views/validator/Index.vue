@@ -6,14 +6,18 @@
     <div class="content">
       <slider-photo></slider-photo>
     </div>
+    <div class="content">
+      <validator-code></validator-code>
+    </div>
   </div>
 </template>
 <script>
 import Slider from './Slider.vue'
 import SliderPhoto from './SliderPhoto.vue'
+import ValidatorCode from './ValidatorCode.vue'
 export default {
   name:'Index',
-  components:{Slider, SliderPhoto},
+  components:{Slider, SliderPhoto, ValidatorCode},
   data(){
     return {}
   }
