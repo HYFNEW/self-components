@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <router-link to="/validator">校验界面</router-link>
+    <router-link to="/drag">拖动界面</router-link>
     <router-view></router-view>
   </div>
 </template>

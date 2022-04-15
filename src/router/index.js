@@ -9,6 +9,11 @@ let router = new Router({
       name:'Validator',
       path:'/validator',
       component:() => import('@/views/validator/Index.vue')
+    },
+    {
+      name:'Drag',
+      path:'/drag',
+      component:() => import('@/views/drag/Index.vue')
     }
   ]
 })
