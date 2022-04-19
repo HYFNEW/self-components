@@ -8,13 +8,13 @@ export default {
   name:'DragItem',
   data () {
     return {
+      canDrag:true,
       canMove:false,
       startX: null,
       startY: null,
       parent: null,
       left: null,
       top: null,
-      canDrag:true,
     }
   },
   methods: {
@@ -94,6 +94,7 @@ export default {
   cursor: -webkit-grab;
   cursor: -moz-grab;
   cursor: grab;
+  user-select: none;
 }
 .grab * {
   cursor: -webkit-grab !important;
